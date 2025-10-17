@@ -13,8 +13,7 @@ A **full-stack doctor appointment booking system** that allows **patients, docto
 - [Technologies Used](#technologies-used)  
 - [Project Structure](#project-structure)  
 - [Screenshots](#screenshots)  
-- [Future Enhancements](#future-enhancements)  
-- [Getting Started](#getting-started)  
+- [Future Enhancements](#future-enhancements)   
 - [License](#license)  
 
 ---
