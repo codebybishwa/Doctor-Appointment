@@ -1,5 +1,7 @@
 # MediNexusHealth – Doctor Appointment Booking System
 
+🌐 **Frontend Live:** [Click here to view](https://doctor-appointment-7hrs.vercel.app/)
+
 A **full-stack doctor appointment booking system** that allows **patients, doctors, and admins** to manage appointments efficiently. This platform is designed for clinics, hospitals, or individual doctors to handle appointments and payments online seamlessly.
 
 **Disclaimer:** This project name is for demonstration purposes and may be similar to an existing brand. This project is not affiliated with any existing company or brand.
@@ -13,7 +15,8 @@ A **full-stack doctor appointment booking system** that allows **patients, docto
 - [Technologies Used](#technologies-used)  
 - [Project Structure](#project-structure)  
 - [Screenshots](#screenshots)  
-- [Future Enhancements](#future-enhancements)   
+- [Future Enhancements](#future-enhancements)
+- [Steps to Setup Project Locally](#steps-to-setup-project-locally)   
 - [License](#license)  
 
 ---
@@ -81,7 +84,54 @@ A **full-stack doctor appointment booking system** that allows **patients, docto
 
 ## **Future Enhancements**
 - Email/SMS notifications for appointment confirmation and reminders.  
-- Advanced analytics and reporting for admin.  
+- Advanced analytics and reporting for admin.
+
+---
+
+## **Steps to Setup Project Locally**
+
+1. **Clone the repository:**  
+```bash
+git clone <your-repo-link>
+```
+
+2. **Install dependencies:**
+ ```bash
+cd frontend
+npm install
+```
+ ```bash
+cd backend
+npm install
+```
+ ```bash
+cd admin
+npm install
+```
+
+3.**Configure environment variables:**
+- In backend/.env, set the following:
+
+```bash
+MONGODB_URI=<your-mongodb-uri>
+CLOUDINARY_NAME=<your-cloudinary-name>
+CLOUDINARY_API_KEY=<your-cloudinary-api-key>
+CLOUDINARY_SECRET_KEY=<your-cloudinary-secret-key>
+RAZORPAY_KEY_ID=<optional>
+STRIPE_SECRET_KEY=<optional>
+```
+
+4. **Run the backend server:**
+```bash
+cd backend
+npm run server
+```
+
+5. **Run the frontend server:**
+```bash
+cd frontend
+npm run dev
+```
 
 ---
 ## 📜 License
